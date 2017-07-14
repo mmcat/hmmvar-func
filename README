@@ -1,0 +1,18 @@
+================== 
+HMMvar-func README
+==================
+
+For detailed input and installation, please refer the README file in HMMvar package. 
+
+Output
+=====
+The output are the confidence scores of the four types and the corresponding predicted type for each input variant. 
+It generates the ouput file 'classification_results.txt'. For example, the results may look like as follows.
+
+VID	LoF	SoF	CoF	GoF	Prediction
+1	0.000526497	0.031769	0.015776	0.951929	GoF
+2	0.000216149	0.0320793	0.0064767	0.961228	GoF
+3	0.000858227	0.034713	0.0232688	0.94116	GoF
+4	0.00047879	0.0214025	0.0214025	0.956716	GoF
+5	0.000145588	0.0291666	0.00482121	0.965867	GoF
+6	0.000578636	0.0141954	0.0385871	0.946639	GoF
